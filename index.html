@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I am a PhD candidate in Management Science and Engineering at Stanford University. My research studies sequential decision-making under uncertainty, with a focus on online resource allocation, stochastic optimization, and applications in operations management.">
+  <meta name="author" content="Haoran Xu">
+  <meta name="theme-color" content="#7d2b40">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Haoran Xu | Stanford University">
+  <meta property="og:description" content="I am a PhD candidate in Management Science and Engineering at Stanford University. My research studies sequential decision-making under uncertainty, with a focus on online resource allocation, stochastic optimization, and applications in operations management.">
+  <title>Haoran Xu | Stanford University</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Haoran Xu</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="files/Haoran_Xu_CV.pdf" target="_blank" rel="noopener" aria-label="CV PDF, opens in a new tab">CV <span class="pdf-tag">PDF</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="site-main" tabindex="-1">
+    <section class="hero" aria-labelledby="home-title">
+      <div class="hero-copy">
+        <h1 id="home-title">Haoran Xu</h1>
+        <p class="affiliation"><span class="position">PhD Candidate</span><br>
+          Management Science and Engineering · Stanford University</p>
+        <div class="contact-links" aria-label="Contact and profile links">
+          <a href="mailto:haoran14@stanford.edu">haoran14@stanford.edu</a>
+          <a href="https://scholar.google.com/citations?user=--bchzoAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar <span class="external-mark" aria-hidden="true">↗</span></a>
+          <a href="files/Haoran_Xu_CV.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae PDF, opens in a new tab">CV <span class="pdf-tag">PDF</span></a>
+        </div>
+        <p class="intro">I am a PhD candidate in Management Science and Engineering at Stanford University. My research studies sequential decision-making under uncertainty, with a focus on online resource allocation, stochastic optimization, and applications in operations management.</p>
+      </div>
+    </section>
+    <section class="selected-research" aria-labelledby="selected-title">
+      <div class="section-heading">
+        <h2 id="selected-title">Selected Research</h2>
+        <a class="all-research" href="research.html">All research <span aria-hidden="true">→</span></a>
+      </div>
+      <article class="paper" id="batching" aria-labelledby="batching-title">
+  <p class="paper-badge">Job Market Paper</p>
+<h3 id="batching-title"><a class="paper-title-link" href="https://arxiv.org/abs/2408.00310" target="_blank" rel="noopener noreferrer">Online Linear Programming with Batching</a></h3>
+  <p class="paper-authors"><span class="author-self">Haoran Xu</span>, Peter W. Glynn, and Yinyu Ye</p>
+  <p class="paper-status">Submitted to Management Science · arXiv preprint, 2024</p>
+  <p class="paper-description">We study online linear programming with batching and develop pricing algorithms whose regret depends logarithmically on the number of batches, independently of the length of the planning horizon.</p>
+<div class="paper-controls">
+    <p class="paper-links"><a href="https://arxiv.org/abs/2408.00310" target="_blank" rel="noopener noreferrer" aria-label="arXiv page for Online Linear Programming with Batching">arXiv <span class="external-mark" aria-hidden="true">↗</span></a></p>
+    <details class="abstract">
+      <summary>Abstract<span class="sr-only"> for Online Linear Programming with Batching</span></summary>
+      <div class="abstract-content">
+        <p>We study Online Linear Programming (OLP) with batching. The planning horizon is cut into <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="K" data-tex="K"><mrow><mi>K</mi></mrow></math> batches, and decisions on orders can be delayed to the end of their associated batch. The ability to delay decisions improves operational performance, as measured by regret. We study two questions: (1) What is a lower bound on the regret as a function of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="K" data-tex="K"><mrow><mi>K</mi></mrow></math> and the length of the planning horizon? (2) Which algorithms can achieve this regret lower bound? This paper analyzes these questions when the distribution of the reward has a continuous support. We provide an <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="Omega of log K" data-tex="\Omega(\log K)"><mrow><mi mathvariant="normal">Ω</mi><mo stretchy="false" lspace="0" rspace="0">(</mo><mi mathvariant="normal">log</mi><mo>&#x2061;</mo><mi>K</mi><mo stretchy="false" lspace="0" rspace="0">)</mo></mrow></math> regret lower bound in the single-resource case, and we provide pricing algorithms having an <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="Big O of log K" data-tex="O(\log K)"><mrow><mi>O</mi><mo stretchy="false" lspace="0" rspace="0">(</mo><mi mathvariant="normal">log</mi><mo>&#x2061;</mo><mi>K</mi><mo stretchy="false" lspace="0" rspace="0">)</mo></mrow></math> regret in the setting with Poisson arrivals and multiple types of resources. All the algorithms update the prices at most <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="K" data-tex="K"><mrow><mi>K</mi></mrow></math> times and only delay orders of the first and the last batches. All the regret bounds are independent of the length of the planning horizon. Finally, we study a more realistic large support setting where the number of distinct order types is finite but scales with the total number of orders. We prove that our <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="Theta of log K" data-tex="\Theta(\log K)"><mrow><mi mathvariant="normal">Θ</mi><mo stretchy="false" lspace="0" rspace="0">(</mo><mi mathvariant="normal">log</mi><mo>&#x2061;</mo><mi>K</mi><mo stretchy="false" lspace="0" rspace="0">)</mo></mrow></math> bounds still hold for the batching operation of a multisecretary problem with discretized uniform rewards in this large support setting, provided the support grows fast enough. This suggests that the continuous support setting that is the paper’s focus serves as a useful theoretical surrogate for the more realistic large finite support setting.</p>
+      </div>
+    </details>
+  </div>
+</article>
+      <article class="paper" id="bridging" aria-labelledby="bridging-title">
+  <h3 id="bridging-title"><a class="paper-title-link" href="https://ssrn.com/abstract=7526320" target="_blank" rel="noopener noreferrer">Bridging the Discrete and Continuous Reward Theories for Online Linear Programming: The Key Role Played by the Support Size</a></h3>
+  <p class="paper-authors"><span class="author-self">Haoran Xu</span>, Peter W. Glynn, and Yinyu Ye</p>
+  <p class="paper-status">Working paper · SSRN preprint, 2026</p>
+  <p class="paper-description">We study how regret depends jointly on the number of requests and the reward support size, connecting finite and continuous support theories for online linear programming.</p>
+<div class="paper-controls">
+    <p class="paper-links"><a href="https://ssrn.com/abstract=7526320" target="_blank" rel="noopener noreferrer" aria-label="SSRN page for Bridging the Discrete and Continuous Reward Theories for Online Linear Programming: The Key Role Played by the Support Size">SSRN <span class="external-mark" aria-hidden="true">↗</span></a></p>
+    <details class="abstract">
+      <summary>Abstract<span class="sr-only"> for Bridging the Discrete and Continuous Reward Theories for Online Linear Programming: The Key Role Played by the Support Size</span></summary>
+      <div class="abstract-content">
+        <p>Existing finite support theory for online linear programming gives regret bounds independent of the number of requests but typically polynomial in the reward support size. On the other hand, continuous support theory establishes that the regret is logarithmic in the number of requests. Given the quite different regret behaviors in these two settings, it is natural to study the intermediate regime, where both the number of requests <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n" data-tex="n"><mrow><mi>n</mi></mrow></math> and the reward-support size <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="S" data-tex="S"><mrow><mi>S</mi></mrow></math> are large but finite. This regime is also important at a practical level, as it describes settings in which the number of customer types and number of requests are both large. We consider the single resource problem with independent and identically distributed requests from a known distribution. Under appropriate regularity conditions, we prove an <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="Big O of log of min of n and S squared, plus 1 over pi sub min" data-tex="O(\log(\min\{n,S^2\})+1/\pi_{\min})"><mrow><mi>O</mi><mo stretchy="false" lspace="0" rspace="0">(</mo><mi mathvariant="normal">log</mi><mo>&#x2061;</mo><mo stretchy="false" lspace="0" rspace="0">(</mo><mi mathvariant="normal">min</mi><mo>&#x2061;</mo><mo stretchy="false" lspace="0" rspace="0">{</mo><mi>n</mi><mo>,</mo><msup><mi>S</mi><mn>2</mn></msup><mo stretchy="false" lspace="0" rspace="0">}</mo><mo stretchy="false" lspace="0" rspace="0">)</mo><mo>+</mo><mn>1</mn><mo>/</mo><msub><mi>π</mi><mi mathvariant="normal">min</mi></msub><mo stretchy="false" lspace="0" rspace="0">)</mo></mrow></math> regret bound for the Fluid Bayes Selector algorithm, where <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="pi sub min" data-tex="\pi_{\min}"><mrow><msub><mi>π</mi><mi mathvariant="normal">min</mi></msub></mrow></math> denotes the smallest point mass in the marginal distribution of resource consumption. This bound requires no nondegeneracy assumption on the finite support fluid LP. Under additional conditions, every feasible policy incurs <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="Omega of log of min of n and S squared" data-tex="\Omega(\log(\min\{n,S^2\}))"><mrow><mi mathvariant="normal">Ω</mi><mo stretchy="false" lspace="0" rspace="0">(</mo><mi mathvariant="normal">log</mi><mo>&#x2061;</mo><mo stretchy="false" lspace="0" rspace="0">(</mo><mi mathvariant="normal">min</mi><mo>&#x2061;</mo><mo stretchy="false" lspace="0" rspace="0">{</mo><mi>n</mi><mo>,</mo><msup><mi>S</mi><mn>2</mn></msup><mo stretchy="false" lspace="0" rspace="0">}</mo><mo stretchy="false" lspace="0" rspace="0">)</mo><mo stretchy="false" lspace="0" rspace="0">)</mo></mrow></math> regret. We construct two sequences of instances to show that the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="1 over pi sub min" data-tex="1/\pi_{\min}"><mrow><mn>1</mn><mo>/</mo><msub><mi>π</mi><mi mathvariant="normal">min</mi></msub></mrow></math> term is necessary in the worst case but not for every instance. For the multisecretary problem, exact asymptotics under additional smoothness and polynomial support growth establish <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="square root of n" data-tex="\sqrt{n}"><mrow><msqrt><mi>n</mi></msqrt></mrow></math> as the exact support size scale at which continuous support theory correctly predicts the leading order term of regret of the large support regime. These results quantify the transition between finite and continuous support regret behavior, and clarify the impact of support size on regret.</p>
+      </div>
+    </details>
+  </div>
+</article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>Haoran Xu</span>
+      <span>Last updated: October 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
